@@ -1,5 +1,7 @@
 # SAM-Cell Thesis Experiment Package
 
+SAM-Cell is a cell instance segmentation framework for thesis experiments and reproducible CellCosmos benchmarking.
+
 Built from `/home/taotao/sam_cell` on 2026-05-12.
 
 GitHub publication note: the local thesis bundle contains large offline assets
