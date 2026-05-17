@@ -1,0 +1,15 @@
+extends: /backup/taotao_work/sam_cell/configs/sam_cell_global_adaptive_selector_v3_cellpose_boundary_workstation2.yaml
+source_overrides:
+  cellpose:
+    watershed:
+      boundary_additive_weight: 0.12
+      share_boundary_across_experts: true
+      marker_rescue_enabled: false
+  tissuenet:
+    watershed:
+      boundary_additive_weight: 0.18
+      min_distance_factor: 0.65
+      h_maxima_values:
+      - 0.08
+      - 0.12
+      - 0.16

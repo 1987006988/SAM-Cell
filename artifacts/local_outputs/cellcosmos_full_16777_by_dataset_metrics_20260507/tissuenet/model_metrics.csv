@@ -1,0 +1,4 @@
+source,method,n,pq,aji,dice,summary_path
+tissuenet,cellpose_official_cyto3,7009,0.31051855365277026,0.2754488465807232,0.582056981394573,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellpose_official_cyto3/metrics/summary_by_source.csv
+tissuenet,cellsam_generalist,7009,0.6623197318936729,0.6733636774331372,0.9000232506638911,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellsam_generalist/metrics/summary_by_source.csv
+tissuenet,samcell_refine_final,7009,0.6094823352036736,0.6110204799297018,0.9045609183193732,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/samcell_refine_final/summary.csv

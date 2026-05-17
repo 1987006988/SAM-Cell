@@ -1,0 +1,8 @@
+{
+  "method_name": "hovernet_fast_pannuke",
+  "manifest_csv": "/backup/taotao_work/sam_cell/experiments/cellcosmos_repro_20260501/manifests/core3500_all.csv",
+  "pred_dir": "/backup/taotao_work/sam_cell/experiments/cellcosmos_repro_20260501/baseline_hovernet_fast_pannuke/predictions/core3500_all/labels",
+  "pred_pattern": "{stem}_hovernet.tif",
+  "evaluated": 3472,
+  "missing": []
+}

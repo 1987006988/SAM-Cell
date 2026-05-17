@@ -1,0 +1,27 @@
+# Local/runtime clutter
+.codex/
+.agents/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+
+# Large offline assets kept in the local thesis bundle, not in normal Git history.
+# See artifacts/path_index/*.csv and OFFLINE_FULL_BUNDLE_TODO.md for provenance.
+artifacts/weights/**
+!artifacts/weights/
+!artifacts/weights/WEIGHTS_MANIFEST.md
+
+artifacts/datasets/CellCosmos_Benchmark/images/**
+artifacts/datasets/CellCosmos_Benchmark/masks/**
+!artifacts/datasets/
+!artifacts/datasets/CellCosmos_Benchmark/
+!artifacts/datasets/CellCosmos_Benchmark/full_manifest_packaged.csv
+
+# Generated smoke/runtime outputs can be reproduced.
+artifacts/smoke_outputs/
+artifacts/cache/

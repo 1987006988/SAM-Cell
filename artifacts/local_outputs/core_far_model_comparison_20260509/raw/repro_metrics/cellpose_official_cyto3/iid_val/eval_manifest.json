@@ -1,0 +1,8 @@
+{
+  "method_name": "cellpose_official_cyto3",
+  "manifest_csv": "/backup/taotao_work/sam_cell/experiments/cellcosmos_repro_20260501/manifests/iid_val.csv",
+  "pred_dir": "/backup/taotao_work/sam_cell/experiments/cellcosmos_repro_20260501/predictions/cellpose_official_cyto3/iid_val",
+  "pred_pattern": "{stem}_cp_masks.tif",
+  "evaluated": 697,
+  "missing": []
+}

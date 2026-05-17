@@ -1,0 +1,4 @@
+method,n,f1,pq,aji,dice,metric_convention
+Cellpose official cyto3,16777,0.456724,0.334346,0.30478,0.531469,mean_per_image
+CellSAM generalist,16777,0.701177,0.538885,0.524821,0.761598,mean_per_image
+SAM-Cell refine final,16777,0.746555,0.608306,0.618288,0.865723,mean_per_image

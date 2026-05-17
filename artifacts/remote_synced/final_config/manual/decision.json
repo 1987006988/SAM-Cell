@@ -1,0 +1,27 @@
+{
+  "accepted": true,
+  "best_candidate": "tn_refine_add_0.18_dist_0.65_h008_012_016",
+  "best_row": {
+    "stage": "eval250_all_derived",
+    "candidate": "tn_refine_add_0.18_dist_0.65_h008_012_016",
+    "ALL_final_pq": 0.6326150381518432,
+    "ALL_delta": 0.0008684618084087159,
+    "cellpose_final_pq": 0.6762011997591446,
+    "cellpose_delta": 0.0,
+    "dsb2018_final_pq": 0.7417150338587521,
+    "dsb2018_delta": 0.0,
+    "livecell_final_pq": 0.6051402607735605,
+    "livecell_delta": 0.0,
+    "pannuke_final_pq": 0.5496537067375251,
+    "pannuke_delta": 0.0,
+    "tissuenet_final_pq": 0.5903649896302334,
+    "tissuenet_delta": 0.0043423090420438015,
+    "objective": 0.6341348463165585
+  },
+  "baseline": "v3_baseline is the previously accepted tn_add_0.12_dist_0.50_h008_012_016 setting in this refine run.",
+  "baseline_all_source_per_image": "/backup/taotao_work/sam_cell/outputs/tissuenet_local_combo_search_20260504/eval250_all/tn_add_0.12_dist_0.50_h008_012_016/per_image.csv",
+  "output_root": "/backup/taotao_work/sam_cell/outputs/tissuenet_refine_combo_search_20260504",
+  "note": "This refine run only changes source-specific TissueNet EDT/watershed parameters; all-source metrics are derived by replacing only TissueNet per-image rows.",
+  "best_config": "/backup/taotao_work/sam_cell/outputs/tissuenet_refine_combo_search_20260504/configs/tn_refine_add_0.18_dist_0.65_h008_012_016.yaml",
+  "copied_best_config": "/backup/taotao_work/sam_cell/outputs/tissuenet_refine_combo_search_20260504/sam_cell_tissuenet_refine_best_config.yaml"
+}

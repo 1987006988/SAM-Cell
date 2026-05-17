@@ -1,0 +1,8 @@
+{
+  "method_name": "sam2_automatic_dense",
+  "manifest_csv": "/backup/taotao_work/sam_cell/experiments/cellcosmos_repro_20260501/manifests/iid_val.csv",
+  "pred_dir": "/backup/taotao_work/sam_cell/experiments/cellcosmos_repro_20260501/predictions/sam2_automatic_dense/iid_val",
+  "pred_pattern": "{stem}.tif",
+  "evaluated": 697,
+  "missing": []
+}

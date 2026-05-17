@@ -1,0 +1,14 @@
+{
+  "method": "sam2_prompt_matched_box_mask",
+  "config": "/backup/taotao_work/sam_cell/outputs/tissuenet_refine_combo_search_20260504/sam_cell_tissuenet_refine_best_config.yaml",
+  "manifest": "/backup/taotao_work/sam_cell/outputs/benchmark_splits_large/eval_250_server_paths.csv",
+  "out_dir": "/backup/taotao_work/sam_cell/experiments/cellcosmos_repro_20260501/baseline_sam2_prompt_matched_20260507_eval50",
+  "n": 50,
+  "per_source": 10,
+  "prompt_mode": "box_mask",
+  "score_threshold": 0.0,
+  "duplicate_iou_threshold": 0.85,
+  "use_pixel_logits": true,
+  "save_outputs": true,
+  "notes": "SAM-Cell proposals create box+coarse-mask prompts; SAM2 masks are assembled with duplicate suppression and pixel competition only."
+}

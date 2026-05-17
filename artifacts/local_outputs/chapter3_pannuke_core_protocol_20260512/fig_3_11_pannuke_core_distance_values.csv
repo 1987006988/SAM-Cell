@@ -1,0 +1,5 @@
+source,distance_to_pannuke,coreset_feature_count,far_ood_test_count
+tissuenet,0.069150104,1357,1357
+dsb2018,0.076163171,142,142
+cellpose,0.086250532,147,147
+livecell,0.113091595,149,149

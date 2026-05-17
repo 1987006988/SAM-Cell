@@ -1,0 +1,152 @@
+runtime:
+  device: cuda
+  seed: 42
+
+image:
+  force_rgb: true
+  normalize_mode: none
+  lower_percentile: 1
+  upper_percentile: 99
+  output_uint8: true
+
+semantic_experts:
+  - name: universal_boundary
+    enabled: true
+    source_name: universal_boundary
+    backend: nnunet
+    nnunet_repo: null
+    nnunet_model_dir: /backup/taotao_work/nnUNet_results/Dataset621_SAMCellUniversalBoundary/nnUNetTrainer__nnUNetPlans__2d
+    nnunet_folds: [0, 1, 2, 3, 4]
+    checkpoint_name: checkpoint_final.pth
+    foreground_threshold: 0.5
+    foreground_class_indices: [1, 2]
+    boundary_class_index: 2
+    proposal_thresholds: [0.45, 0.5, 0.55]
+    min_foreground_area: 20
+    fill_holes: true
+    closing_radius: 1
+    grayscale_mode: luminance
+    prob_cache_dir: /backup/taotao_work/sam_cell/outputs/multi_expert/semantic_cache_universal_final
+  - name: cellpose_style
+    enabled: true
+    source_name: cellpose_style
+    backend: nnunet
+    nnunet_repo: null
+    nnunet_model_dir: /backup/taotao_work/nnUNet_results/Dataset512_CellPose/nnUNetTrainer__nnUNetPlans__2d
+    nnunet_folds: [0, 1, 2, 3, 4]
+    checkpoint_name: checkpoint_final.pth
+    foreground_threshold: 0.5
+    foreground_class_indices: [1]
+    boundary_class_index: null
+    proposal_thresholds: [0.4, 0.5, 0.6]
+    min_foreground_area: 10
+    fill_holes: true
+    closing_radius: 1
+    grayscale_mode: luminance
+    prob_cache_dir: /backup/taotao_work/sam_cell/outputs/multi_expert/semantic_cache_cellpose_style_dataset512
+    enabled_sources: [cellpose]
+
+proposal_ranker:
+  enabled: true
+  model_path: /backup/taotao_work/sam_cell/outputs/proposal_ranker_dual/proposal_ranker.joblib
+  keep_threshold: 0.5
+  top_k: null
+  enabled_sources: [cellpose]
+
+proposal_repair:
+  enabled: false
+
+watershed:
+  edt_sigma: 1.0
+  marker_method: hybrid
+  h_maxima: 0.15
+  h_maxima_values: [0.1, 0.15, 0.2]
+  peak_threshold_rel: 0.2
+  min_distance_factor: 0.45
+  min_marker_distance: 3
+  min_instance_area: 10
+  max_instance_area: null
+  proposal_duplicate_iou_threshold: 0.75
+  boundary_suppression_weight: 0.7
+
+external_proposals:
+  enabled: false
+  label_dir: null
+  suffix: "_cp_masks.tif"
+  mode: augment
+  source_name: external
+  min_area: null
+  max_area: null
+  duplicate_iou_threshold: 0.75
+  coarse_score: 0.95
+  min_internal_uncovered_fraction: 0.0
+  min_internal_uncovered_pixels: 0
+  internal_min_area: null
+  internal_max_area: null
+  internal_min_mean_fg_prob: 0.0
+  max_internal_additions: null
+  max_internal_additions_ratio: null
+  internal_selector_model: null
+  internal_selector_threshold: 0.5
+  external_selector_model: null
+  external_selector_keep_threshold: 0.05
+
+crop:
+  alpha: 0.2
+  min_crop_size: 64
+  max_crop_size: 1024
+  square_crop: true
+  clip_to_image: true
+
+sam2:
+  enabled: true
+  sam2_repo: /backup/taotao_work/segment-anything-2
+  checkpoint: /backup/taotao_work/segment-anything-2/checkpoints/sam2_hiera_large.pt
+  config: sam2_hiera_l.yaml
+  autocast_dtype: bfloat16
+  multimask_output: false
+  return_logits: true
+  prompt_modes: [box_mask]
+  mask_prompt_size: 256
+  mask_logit_scale: 10.0
+  score_threshold: 0.0
+  apply_postprocessing: true
+
+merge:
+  use_pixel_logits: true
+  duplicate_iou_threshold: 0.8
+  min_refined_area: 10
+  max_area_growth_ratio: 3.0
+  min_coarse_refined_iou: 0.05
+  semantic_gate_dilation: 2
+  keep_coarse_candidate: true
+  coarse_score: 0.5
+  accept_sam2_min_score: 0.0
+  accept_sam2_min_coarse_iou: 0.15
+  accept_sam2_max_area_growth_ratio: 3.0
+  accept_sam2_min_semantic_support: 0.2
+  semantic_support_threshold: 0.35
+
+source_overrides:
+  cellpose:
+    proposal_ranker:
+      keep_threshold: 0.45
+    proposal_repair:
+      enabled: true
+      split_enabled: false
+      set_selector_enabled: true
+      set_selector_iou_threshold: 0.55
+      set_selector_containment_threshold: 0.85
+      set_selector_center_distance_factor: 0.35
+      set_selector_score_margin: 0.02
+    watershed:
+      marker_method: adaptive_hybrid
+      h_maxima_values: [0.06, 0.1, 0.14]
+      min_distance_factor: 0.40
+      peak_threshold_rel: 0.18
+
+output:
+  save_label_map: true
+  save_instance_json: true
+  save_overlay: true
+  save_debug: false

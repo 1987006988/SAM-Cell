@@ -1,0 +1,11 @@
+artifact,path,package_policy
+Full CellCosmos image/mask manifest,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/manifests/full.csv,copy small manifest only; raw data stays on server
+Full CellCosmos images/masks,/mnt/d/cell data/CellCosmos_Benchmark/images and masks,INCLUDED in artifacts/datasets/CellCosmos_Benchmark after space check on 2026-05-12
+Full SAM-Cell predictions,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/samcell_refine_final,do not copy full labels/overlays by default
+Full Cellpose predictions,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellpose_official_cyto3,do not copy full labels/overlays by default
+Full CellSAM predictions,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellsam_generalist,do not copy full labels/overlays by default
+nnU-Net Dataset621 checkpoints,/home/taotao/nnUNet/nnUNetFrame/nnUNet_results/Dataset621_SAMCellUniversalBoundary/nnUNetTrainer__nnUNetPlans__2d,INCLUDED final fold checkpoint_final.pth files plus plans/dataset metadata
+nnU-Net Dataset512 checkpoints,/mnt/d/N E T S/nnUNet/nnUNetFrame/nnUNet_results/Dataset512_CellPose/nnUNetTrainer__nnUNetPlans__2d,INCLUDED final fold checkpoint_final.pth files plus plans/dataset metadata
+SAM2 large checkpoint,/home/taotao/segment-anything-2/checkpoints/sam2_hiera_large.pt,INCLUDED in artifacts/weights/sam2/checkpoints
+Proposal ranker joblib,/home/taotao/sam_cell/outputs/proposal_ranker_dual/proposal_ranker.joblib,INCLUDED in artifacts/weights/proposal_ranker_dual
+Previous Windows CellCosmos zip,/mnt/d/毕业数据/课题实验相关_backup_YYYYMMDD_HHMMSS/cellcosmos/CellCosmos_Benchmark .zip,preserved in timestamp backup after replacement; not copied into new package

@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-05-12T05:02:49",
+  "source_repo": "/home/taotao/sam_cell",
+  "package_root": "/home/taotao/sam_cell/outputs/thesis_experiment_package_20260512",
+  "target_path": "/mnt/d/毕业数据/课题实验相关",
+  "metric_convention": "mean_per_image",
+  "large_files_copied": false,
+  "remote_refresh_script": "scripts/sync_from_server.sh"
+}

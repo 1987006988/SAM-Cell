@@ -1,0 +1,26 @@
+source,image_path,mask_path
+cellpose,/mnt/d/cell data/CellCosmos_Benchmark/images/cellpose_434.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/cellpose_434.png
+cellpose,/mnt/d/cell data/CellCosmos_Benchmark/images/cellpose_309.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/cellpose_309.png
+cellpose,/mnt/d/cell data/CellCosmos_Benchmark/images/cellpose_445.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/cellpose_445.png
+cellpose,/mnt/d/cell data/CellCosmos_Benchmark/images/cellpose_491.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/cellpose_491.png
+cellpose,/mnt/d/cell data/CellCosmos_Benchmark/images/cellpose_458.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/cellpose_458.png
+dsb2018,/mnt/d/cell data/CellCosmos_Benchmark/images/dsb2018_dabfee30b46d23569c63fa7253ef10b2407fbe8023035a5030252313cb718097.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/dsb2018_dabfee30b46d23569c63fa7253ef10b2407fbe8023035a5030252313cb718097.png
+dsb2018,/mnt/d/cell data/CellCosmos_Benchmark/images/dsb2018_f4faa3a409014db1865074c5f66a0255f71ae3faba03265da0b3b91f68e8a8f0.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/dsb2018_f4faa3a409014db1865074c5f66a0255f71ae3faba03265da0b3b91f68e8a8f0.png
+dsb2018,/mnt/d/cell data/CellCosmos_Benchmark/images/dsb2018_f0c9f135c62572f3669a75b2c735e4477dc77fac85e653426ee2b3bcfbed7aaf.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/dsb2018_f0c9f135c62572f3669a75b2c735e4477dc77fac85e653426ee2b3bcfbed7aaf.png
+dsb2018,/mnt/d/cell data/CellCosmos_Benchmark/images/dsb2018_2cfa857e63be1b418c91ad5ea1f8d136fd1b80fc856e1d4277274c3dea28011c.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/dsb2018_2cfa857e63be1b418c91ad5ea1f8d136fd1b80fc856e1d4277274c3dea28011c.png
+dsb2018,/mnt/d/cell data/CellCosmos_Benchmark/images/dsb2018_6eefe1f0d9c2d2c2380db3ecd2113a566ace7dfc917687bb5033b4af5b8293aa.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/dsb2018_6eefe1f0d9c2d2c2380db3ecd2113a566ace7dfc917687bb5033b4af5b8293aa.png
+livecell,/mnt/d/cell data/CellCosmos_Benchmark/images/livecell_A172_Phase_A7_2_02d20h00m_1.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/livecell_A172_Phase_A7_2_02d20h00m_1.png
+livecell,/mnt/d/cell data/CellCosmos_Benchmark/images/livecell_BT474_Phase_C3_2_00d04h00m_3.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/livecell_BT474_Phase_C3_2_00d04h00m_3.png
+livecell,/mnt/d/cell data/CellCosmos_Benchmark/images/livecell_A172_Phase_D7_2_01d12h00m_1.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/livecell_A172_Phase_D7_2_01d12h00m_1.png
+livecell,/mnt/d/cell data/CellCosmos_Benchmark/images/livecell_BT474_Phase_A3_1_03d00h00m_2.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/livecell_BT474_Phase_A3_1_03d00h00m_2.png
+livecell,/mnt/d/cell data/CellCosmos_Benchmark/images/livecell_BT474_Phase_A3_2_03d16h00m_4.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/livecell_BT474_Phase_A3_2_03d16h00m_4.png
+pannuke,/mnt/d/cell data/CellCosmos_Benchmark/images/pannuke_fold1_2151.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/pannuke_fold1_2151.png
+pannuke,/mnt/d/cell data/CellCosmos_Benchmark/images/pannuke_fold3_727.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/pannuke_fold3_727.png
+pannuke,/mnt/d/cell data/CellCosmos_Benchmark/images/pannuke_fold1_647.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/pannuke_fold1_647.png
+pannuke,/mnt/d/cell data/CellCosmos_Benchmark/images/pannuke_fold1_1726.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/pannuke_fold1_1726.png
+pannuke,/mnt/d/cell data/CellCosmos_Benchmark/images/pannuke_fold1_1294.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/pannuke_fold1_1294.png
+tissuenet,/mnt/d/cell data/CellCosmos_Benchmark/images/tissuenet_train_469.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/tissuenet_train_469.png
+tissuenet,/mnt/d/cell data/CellCosmos_Benchmark/images/tissuenet_test_596.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/tissuenet_test_596.png
+tissuenet,/mnt/d/cell data/CellCosmos_Benchmark/images/tissuenet_train_2133.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/tissuenet_train_2133.png
+tissuenet,/mnt/d/cell data/CellCosmos_Benchmark/images/tissuenet_val_442.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/tissuenet_val_442.png
+tissuenet,/mnt/d/cell data/CellCosmos_Benchmark/images/tissuenet_train_1749.png,/mnt/d/cell data/CellCosmos_Benchmark/masks/tissuenet_train_1749.png

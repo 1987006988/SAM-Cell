@@ -1,0 +1,8 @@
+{
+  "method_name": "stardist_pannuke",
+  "manifest_csv": "/backup/taotao_work/sam_cell/experiments/cellcosmos_repro_20260501/manifests/pannuke_core_test.csv",
+  "pred_dir": "/backup/taotao_work/sam_cell/experiments/cellcosmos_repro_20260501/predictions/stardist_pannuke/pannuke_core_test",
+  "pred_pattern": "{stem}.tif",
+  "evaluated": 336,
+  "missing": []
+}

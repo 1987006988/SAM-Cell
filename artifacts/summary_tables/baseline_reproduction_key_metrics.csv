@@ -1,0 +1,18 @@
+scope,method,n,f1,pq,aji,dice,metric_convention,provenance
+full16777,Cellpose official cyto3,16777,0.456724,0.334346,0.304780,0.531469,mean_per_image,full CellCosmos audited comparison
+full16777,CellSAM generalist,16777,0.701177,0.538885,0.524821,0.761598,mean_per_image,full CellCosmos audited comparison
+full16777,SAM-Cell refine final,16777,0.746555,0.608306,0.618288,0.865723,mean_per_image,full CellCosmos audited comparison
+pannuke_core_test,Cellpose cyto3 PanNuke-finetuned,336,0.7575,0.6207,0.6156,0.7911,mean_per_image,Table 3-5/Core-Far comparison
+pannuke_core_test,StarDist PanNuke-trained,336,,0.626118,0.620731,0.799360,mean_per_image,Core-Far comparison
+pannuke_core_test,HoVer-Net fast PanNuke,336,,0.549858,0.561091,0.817125,mean_per_image,Core-Far comparison
+pannuke_core_test,Native SAM2 automatic dense,336,,0.058126,0.019259,0.290695,mean_per_image,Core-Far comparison
+pannuke_core_test,CellSAM generalist,336,,0.430049,0.397525,0.629841,mean_per_image,Core-Far comparison
+pannuke_core_test,SAM-Cell refine final,336,,0.575995,0.596006,0.809390,mean_per_image,Core-Far comparison
+far_ood_test,Cellpose cyto3 PanNuke-finetuned,1795,0.0352,0.0247,0.0187,0.0551,mean_per_image,Table 3-5/Core-Far comparison
+far_ood_test,Cellpose official cyto3,1795,0.5623,0.4122,0.3870,0.6607,mean_per_image,Table 3-5/Core-Far comparison
+far_ood_test,StarDist PanNuke-trained,1795,,0.022308,0.018220,0.042769,mean_per_image,Core-Far comparison
+far_ood_test,HoVer-Net fast PanNuke,1795,,0.005054,0.004639,0.008586,mean_per_image,Core-Far comparison
+far_ood_test,Native SAM2 automatic dense,1795,,0.181334,0.120016,0.595004,mean_per_image,Core-Far comparison
+far_ood_test,CellSAM generalist,1795,,0.637605,0.641439,0.873047,mean_per_image,Core-Far comparison
+far_ood_test,SAM-Cell refine final,1795,,0.634569,0.634742,0.911718,mean_per_image,Core-Far comparison
+eval50,SAM2 prompt-matched box+mask,50,,0.630938,0.629811,0.877933,mean_per_image,SAM2 prompt-matched diagnostic

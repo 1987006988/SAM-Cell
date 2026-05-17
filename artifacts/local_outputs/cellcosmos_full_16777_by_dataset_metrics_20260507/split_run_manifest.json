@@ -1,0 +1,27 @@
+{
+  "root": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503",
+  "metrics_out": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/metrics/by_dataset_20260507",
+  "links_out": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/results_by_dataset_20260507",
+  "sources": [
+    "cellpose",
+    "dsb2018",
+    "livecell",
+    "pannuke",
+    "tissuenet"
+  ],
+  "methods": [
+    "cellpose_official_cyto3",
+    "cellsam_generalist",
+    "samcell_refine_final"
+  ],
+  "n_total": 16777,
+  "source_counts": {
+    "cellpose": 540,
+    "dsb2018": 670,
+    "livecell": 1000,
+    "pannuke": 7558,
+    "tissuenet": 7009
+  },
+  "link_results": true,
+  "missing_label_links": 0
+}

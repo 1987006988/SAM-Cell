@@ -1,0 +1,8 @@
+extends: sam_cell_global_adaptive_selector_v2_workstation2.yaml
+
+source_overrides:
+  cellpose:
+    watershed:
+      boundary_additive_weight: 0.12
+      share_boundary_across_experts: true
+      marker_rescue_enabled: false

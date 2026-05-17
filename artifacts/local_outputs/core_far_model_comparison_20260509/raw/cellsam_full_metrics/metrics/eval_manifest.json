@@ -1,0 +1,8 @@
+{
+  "method_name": "cellsam_generalist",
+  "manifest_csv": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/manifests/full.csv",
+  "pred_dir": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellsam_generalist/predictions/labels",
+  "pred_pattern": "{stem}_cellsam.tif",
+  "evaluated": 16777,
+  "missing": []
+}

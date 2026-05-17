@@ -1,0 +1,8 @@
+source,method,n,pq,aji,dice,summary_path
+ALL,samcell_refine_final,16777,0.6083056641278347,0.6182878545263122,0.8657230203902424,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/samcell_refine_final/summary.csv
+cellpose,samcell_refine_final,540,0.7787768086100102,0.8028965820681254,0.9502978178522188,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/samcell_refine_final/summary.csv
+dsb2018,samcell_refine_final,670,0.8317074804046648,0.8593378874794719,0.9577755601244937,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/samcell_refine_final/summary.csv
+livecell,samcell_refine_final,1000,0.6103659305675526,0.5963662993439084,0.9229922762368176,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/samcell_refine_final/summary.csv
+pannuke,samcell_refine_final,7558,0.5749580604051403,0.593369403716422,0.8079260271799661,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/samcell_refine_final/summary.csv
+tissuenet,samcell_refine_final,7009,0.6094823352036736,0.6110204799297018,0.9045609183193732,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/samcell_refine_final/summary.csv
+SOURCE_MACRO,samcell_refine_final,5,0.6810581230382082,0.6925981305075259,0.9087105199425739,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/samcell_refine_final/summary.csv

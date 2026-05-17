@@ -1,0 +1,12 @@
+# Cellpose PanNuke-finetuned Far-OOD source breakdown
+
+This breakdown explains the Far-OOD collapse of the PanNuke-only Cellpose model.
+
+|source|n|F1|PQ|AJI|Dice|Precision|Recall|
+|---|---|---|---|---|---|---|---|
+|cellpose|147|0.0539|0.0380|0.0296|0.0675|0.4234|0.0396|
+|dsb2018|142|0.1744|0.1384|0.1185|0.1882|0.8613|0.1326|
+|livecell|149|0.0740|0.0454|0.0269|0.1374|0.3846|0.0462|
+|tissuenet|1357|0.0144|0.0091|0.0061|0.0308|0.4588|0.0082|
+|SOURCE_MACRO|4|0.0792|0.0577|0.0453|0.1060|0.5320|0.0567|
+|ALL|1795|0.0352|0.0247|0.0187|0.0551|0.4816|0.0237|

@@ -1,0 +1,11 @@
+asset_type,source_hint,destination_hint,status,notes
+samcell_proposal_ranker,/home/taotao/sam_cell/outputs/proposal_ranker_dual/proposal_ranker.joblib,artifacts/weights/proposal_ranker_dual/proposal_ranker.joblib,included,packaged local copy
+sam2_checkpoint,/home/taotao/segment-anything-2/checkpoints/sam2_hiera_large.pt,artifacts/weights/sam2/checkpoints/sam2_hiera_large.pt,included,packaged local copy
+nnunet_dataset621_final,/home/taotao/nnUNet/nnUNetFrame/nnUNet_results/Dataset621_SAMCellUniversalBoundary/nnUNetTrainer__nnUNetPlans__2d,artifacts/weights/nnunet/Dataset621_SAMCellUniversalBoundary/nnUNetTrainer__nnUNetPlans__2d,included,fold_0 through fold_4 checkpoint_final.pth plus plans/dataset metadata
+nnunet_dataset512_final,/mnt/d/N E T S/nnUNet/nnUNetFrame/nnUNet_results/Dataset512_CellPose/nnUNetTrainer__nnUNetPlans__2d,artifacts/weights/nnunet/Dataset512_CellPose/nnUNetTrainer__nnUNetPlans__2d,included,fold_0 through fold_4 checkpoint_final.pth plus plans/dataset metadata
+cellcosmos_images,/mnt/d/cell data/CellCosmos_Benchmark/images,artifacts/datasets/CellCosmos_Benchmark/images,included,16777 files copied
+cellcosmos_masks,/mnt/d/cell data/CellCosmos_Benchmark/masks,artifacts/datasets/CellCosmos_Benchmark/masks,included,16777 files copied
+samcell_full_predictions,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/samcell_refine_final,artifacts/full_predictions/samcell_refine_final,not_included,large labels/overlays; sync only when exact audit without recomputation is required
+cellpose_full_predictions,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellpose_official_cyto3,artifacts/full_predictions/cellpose_official_cyto3,not_included,large labels/overlays
+cellsam_full_predictions,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellsam_generalist,artifacts/full_predictions/cellsam_generalist,not_included,large labels/overlays
+baseline_training_checkpoints,TODO_NEEDS_REFRESH,artifacts/weights/baselines,not_included,exact baseline checkpoint locations need refresh from original baseline workspaces/server

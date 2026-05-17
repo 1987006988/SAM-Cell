@@ -1,0 +1,423 @@
+{
+  "root": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503",
+  "manifest": {
+    "path": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/manifests/full.csv",
+    "n": 16777,
+    "source_counts": {
+      "cellpose": 540,
+      "dsb2018": 670,
+      "livecell": 1000,
+      "pannuke": 7558,
+      "tissuenet": 7009
+    },
+    "unique_image_names": 16777,
+    "duplicate_image_names": [],
+    "missing_image_paths_count": 0,
+    "missing_mask_paths_count": 0
+  },
+  "methods": {
+    "cellpose_official_cyto3": {
+      "method": "cellpose_official_cyto3",
+      "label_dir": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellpose_official_cyto3/predictions",
+      "label_file_count": 16777,
+      "per_image_count": 16777,
+      "per_image_source_counts": {
+        "cellpose": 540,
+        "dsb2018": 670,
+        "livecell": 1000,
+        "pannuke": 7558,
+        "tissuenet": 7009
+      },
+      "inference_manifest": {
+        "exists": true,
+        "manifest_csv": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/manifests/full.csv",
+        "pretrained_model": "cyto3",
+        "diameter": "0",
+        "gpu_device": "1",
+        "n_images": 16777,
+        "outputs_count": 16777
+      },
+      "expected_n_ok": true,
+      "label_count_at_least_expected": true,
+      "missing_per_image_rows": [],
+      "missing_per_image_rows_count": 0,
+      "extra_per_image_rows": [],
+      "extra_per_image_rows_count": 0,
+      "missing_recorded_prediction_paths_count": 0,
+      "missing_recorded_prediction_paths_examples": [],
+      "missing_expected_prediction_files_count": 0,
+      "missing_expected_prediction_files_examples": [],
+      "wrong_expected_name_or_source_count": 0,
+      "wrong_expected_name_or_source_examples": [],
+      "summary_max_abs_diff": 1.1102230246251565e-16,
+      "summary_diffs": {
+        "ALL": {
+          "n": 0.0,
+          "pq": 0.0,
+          "aji": 0.0,
+          "dice": 1.1102230246251565e-16
+        },
+        "cellpose": {
+          "n": 0.0,
+          "pq": 0.0,
+          "aji": 0.0,
+          "dice": 0.0
+        },
+        "dsb2018": {
+          "n": 0.0,
+          "pq": 0.0,
+          "aji": 0.0,
+          "dice": 0.0
+        },
+        "livecell": {
+          "n": 0.0,
+          "pq": 0.0,
+          "aji": 0.0,
+          "dice": 0.0
+        },
+        "pannuke": {
+          "n": 0.0,
+          "pq": 0.0,
+          "aji": 0.0,
+          "dice": 0.0
+        },
+        "tissuenet": {
+          "n": 0.0,
+          "pq": 0.0,
+          "aji": 0.0,
+          "dice": 0.0
+        }
+      },
+      "sample_recomputed_count": 50,
+      "sample_shape_mismatches": [],
+      "sample_shape_mismatch_count": 0,
+      "sample_metric_mismatch_count": 0,
+      "sample_metric_mismatch_examples": [],
+      "sample_max_abs_metric_diff": 0.0,
+      "all_summary": {
+        "n": 16777.0,
+        "pq": 0.3343458181920663,
+        "aji": 0.30478038690567677,
+        "dice": 0.5314693450256859
+      }
+    },
+    "cellsam_generalist": {
+      "method": "cellsam_generalist",
+      "label_dir": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellsam_generalist/predictions/labels",
+      "label_file_count": 16777,
+      "per_image_count": 16777,
+      "per_image_source_counts": {
+        "cellpose": 540,
+        "dsb2018": 670,
+        "livecell": 1000,
+        "pannuke": 7558,
+        "tissuenet": 7009
+      },
+      "inference_manifest": {
+        "exists": true,
+        "manifest_csv": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/manifests/full.csv",
+        "n_images": 16777,
+        "bbox_threshold": 0.4,
+        "use_wsi": false,
+        "low_contrast_enhancement": false,
+        "gauge_cell_size": false,
+        "grayscale_mode": "repeat",
+        "suffix": "_cellsam.tif",
+        "records_count": 16777,
+        "status_counts": {
+          "skipped": 10279,
+          "empty_from_blank_image": 3,
+          "done": 6492,
+          "empty_from_cellsam_none": 3
+        }
+      },
+      "expected_n_ok": true,
+      "label_count_at_least_expected": true,
+      "missing_per_image_rows": [],
+      "missing_per_image_rows_count": 0,
+      "extra_per_image_rows": [],
+      "extra_per_image_rows_count": 0,
+      "missing_recorded_prediction_paths_count": 0,
+      "missing_recorded_prediction_paths_examples": [],
+      "missing_expected_prediction_files_count": 0,
+      "missing_expected_prediction_files_examples": [],
+      "wrong_expected_name_or_source_count": 0,
+      "wrong_expected_name_or_source_examples": [],
+      "summary_max_abs_diff": 0.0,
+      "summary_diffs": {
+        "ALL": {
+          "n": 0.0,
+          "pq": 0.0,
+          "aji": 0.0,
+          "dice": 0.0
+        },
+        "cellpose": {
+          "n": 0.0,
+          "pq": 0.0,
+          "aji": 0.0,
+          "dice": 0.0
+        },
+        "dsb2018": {
+          "n": 0.0,
+          "pq": 0.0,
+          "aji": 0.0,
+          "dice": 0.0
+        },
+        "livecell": {
+          "n": 0.0,
+          "pq": 0.0,
+          "aji": 0.0,
+          "dice": 0.0
+        },
+        "pannuke": {
+          "n": 0.0,
+          "pq": 0.0,
+          "aji": 0.0,
+          "dice": 0.0
+        },
+        "tissuenet": {
+          "n": 0.0,
+          "pq": 0.0,
+          "aji": 0.0,
+          "dice": 0.0
+        }
+      },
+      "sample_recomputed_count": 50,
+      "sample_shape_mismatches": [],
+      "sample_shape_mismatch_count": 0,
+      "sample_metric_mismatch_count": 0,
+      "sample_metric_mismatch_examples": [],
+      "sample_max_abs_metric_diff": 0.0,
+      "all_summary": {
+        "n": 16777.0,
+        "pq": 0.538884517283234,
+        "aji": 0.5248209538004489,
+        "dice": 0.7615980136927044
+      }
+    },
+    "samcell_refine_final": {
+      "method": "samcell_refine_final",
+      "label_dir": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/samcell_refine_final/labels",
+      "label_file_count": 16777,
+      "per_image_count": 16777,
+      "per_image_source_counts": {
+        "cellpose": 540,
+        "dsb2018": 670,
+        "livecell": 1000,
+        "pannuke": 7558,
+        "tissuenet": 7009
+      },
+      "inference_manifest": {
+        "exists": false
+      },
+      "expected_n_ok": true,
+      "label_count_at_least_expected": true,
+      "missing_per_image_rows": [],
+      "missing_per_image_rows_count": 0,
+      "extra_per_image_rows": [],
+      "extra_per_image_rows_count": 0,
+      "missing_recorded_prediction_paths_count": 0,
+      "missing_recorded_prediction_paths_examples": [],
+      "missing_expected_prediction_files_count": 0,
+      "missing_expected_prediction_files_examples": [],
+      "wrong_expected_name_or_source_count": 0,
+      "wrong_expected_name_or_source_examples": [],
+      "summary_max_abs_diff": 0.0,
+      "summary_diffs": {
+        "ALL": {
+          "pq": 0.0,
+          "aji": 0.0,
+          "dice": 0.0
+        },
+        "cellpose": {
+          "pq": 0.0,
+          "aji": 0.0,
+          "dice": 0.0
+        },
+        "dsb2018": {
+          "pq": 0.0,
+          "aji": 0.0,
+          "dice": 0.0
+        },
+        "livecell": {
+          "pq": 0.0,
+          "aji": 0.0,
+          "dice": 0.0
+        },
+        "pannuke": {
+          "pq": 0.0,
+          "aji": 0.0,
+          "dice": 0.0
+        },
+        "tissuenet": {
+          "pq": 0.0,
+          "aji": 0.0,
+          "dice": 0.0
+        }
+      },
+      "sample_recomputed_count": 50,
+      "sample_shape_mismatches": [],
+      "sample_shape_mismatch_count": 0,
+      "sample_metric_mismatch_count": 0,
+      "sample_metric_mismatch_examples": [],
+      "sample_max_abs_metric_diff": 0.0,
+      "all_summary": {
+        "pq": 0.6083056641278347,
+        "aji": 0.6182878545263122,
+        "dice": 0.8657230203902424
+      }
+    }
+  },
+  "samcell_config": {
+    "run_manifest": {
+      "exists": true,
+      "path": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/run_manifest_samcell_tn_refine.json",
+      "refine_decision": "/backup/taotao_work/sam_cell/outputs/tissuenet_refine_combo_search_20260504/decision.json",
+      "search_accepted": "true",
+      "final_config": "/backup/taotao_work/sam_cell/outputs/tissuenet_refine_combo_search_20260504/sam_cell_tissuenet_refine_best_config.yaml",
+      "full_manifest": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/manifests/full.csv",
+      "run_script": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/run_full_samcell_tn_refine.sh",
+      "out_dir": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/samcell_refine_final",
+      "session": "full_samcell_refine_final"
+    },
+    "config_chain": [
+      {
+        "exists": true,
+        "path": "/backup/taotao_work/sam_cell/outputs/tissuenet_refine_combo_search_20260504/sam_cell_tissuenet_refine_best_config.yaml",
+        "extends": "/backup/taotao_work/sam_cell/configs/sam_cell_global_adaptive_selector_v3_cellpose_boundary_workstation2.yaml",
+        "source_overrides": {
+          "cellpose": {
+            "watershed": {
+              "boundary_additive_weight": 0.12,
+              "share_boundary_across_experts": true,
+              "marker_rescue_enabled": false
+            }
+          },
+          "tissuenet": {
+            "watershed": {
+              "boundary_additive_weight": 0.18,
+              "min_distance_factor": 0.65,
+              "h_maxima_values": [
+                0.08,
+                0.12,
+                0.16
+              ]
+            }
+          }
+        },
+        "semantic_experts": {}
+      },
+      {
+        "exists": true,
+        "path": "/backup/taotao_work/sam_cell/configs/sam_cell_global_adaptive_selector_v3_cellpose_boundary_workstation2.yaml",
+        "extends": "sam_cell_global_adaptive_selector_v2_workstation2.yaml",
+        "source_overrides": {
+          "cellpose": {
+            "watershed": {
+              "boundary_additive_weight": 0.12,
+              "share_boundary_across_experts": true,
+              "marker_rescue_enabled": false
+            }
+          }
+        },
+        "semantic_experts": {}
+      },
+      {
+        "exists": true,
+        "path": "/backup/taotao_work/sam_cell/configs/sam_cell_global_adaptive_selector_v2_workstation2.yaml",
+        "extends": null,
+        "semantic_experts": {
+          "universal_boundary": {
+            "backend": "nnunet",
+            "model_dir": "/backup/taotao_work/nnUNet_results/Dataset621_SAMCellUniversalBoundary/nnUNetTrainer__nnUNetPlans__2d",
+            "folds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "checkpoint_name": "checkpoint_final.pth",
+            "foreground_classes": [
+              1,
+              2
+            ],
+            "boundary_class": 2,
+            "enabled_sources": null,
+            "cache_dir": "/backup/taotao_work/sam_cell/outputs/multi_expert/semantic_cache_universal_final"
+          },
+          "cellpose_style": {
+            "backend": "nnunet",
+            "model_dir": "/backup/taotao_work/nnUNet_results/Dataset512_CellPose/nnUNetTrainer__nnUNetPlans__2d",
+            "folds": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "checkpoint_name": "checkpoint_final.pth",
+            "foreground_classes": [
+              1
+            ],
+            "boundary_class": null,
+            "enabled_sources": [
+              "cellpose"
+            ],
+            "cache_dir": "/backup/taotao_work/sam_cell/outputs/multi_expert/semantic_cache_cellpose_style_dataset512"
+          }
+        },
+        "proposal_ranker": {
+          "enabled": true,
+          "model_path": "/backup/taotao_work/sam_cell/outputs/proposal_ranker_dual/proposal_ranker.joblib",
+          "keep_threshold": 0.45,
+          "enabled_sources": [
+            "cellpose"
+          ]
+        },
+        "sam": {
+          "checkpoint": "/backup/taotao_work/segment-anything-2/checkpoints/sam2_hiera_large.pt",
+          "config": "sam2_hiera_l.yaml",
+          "prompt_modes": [
+            "box_mask"
+          ],
+          "sam2_repo": "/backup/taotao_work/segment-anything-2"
+        }
+      }
+    ]
+  },
+  "comparison": {
+    "path": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/metrics/full_model_comparison_20260507/full_model_comparison_pq_aji_dice.csv",
+    "exists": true,
+    "row_count": 21,
+    "all_rows": [
+      {
+        "method": "cellpose_official_cyto3",
+        "source": "ALL",
+        "n": "16777",
+        "pq": "0.3343458181920663",
+        "aji": "0.30478038690567677",
+        "dice": "0.5314693450256859",
+        "summary_path": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellpose_official_cyto3/metrics/summary_by_source.csv"
+      },
+      {
+        "method": "cellsam_generalist",
+        "source": "ALL",
+        "n": "16777",
+        "pq": "0.538884517283234",
+        "aji": "0.5248209538004489",
+        "dice": "0.7615980136927044",
+        "summary_path": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellsam_generalist/metrics/summary_by_source.csv"
+      },
+      {
+        "method": "samcell_refine_final",
+        "source": "ALL",
+        "n": "16777",
+        "pq": "0.6083056641278347",
+        "aji": "0.6182878545263122",
+        "dice": "0.8657230203902424",
+        "summary_path": "/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/samcell_refine_final/summary.csv"
+      }
+    ]
+  }
+}

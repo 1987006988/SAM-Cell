@@ -1,0 +1,4 @@
+source,method,n,pq,aji,dice,summary_path
+livecell,cellpose_official_cyto3,1000,0.6533048266891979,0.6362697128567675,0.8981184708459146,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellpose_official_cyto3/metrics/summary_by_source.csv
+livecell,cellsam_generalist,1000,0.32226371029802275,0.2648492913795652,0.614238949471081,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellsam_generalist/metrics/summary_by_source.csv
+livecell,samcell_refine_final,1000,0.6103659305675526,0.5963662993439084,0.9229922762368176,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/samcell_refine_final/summary.csv

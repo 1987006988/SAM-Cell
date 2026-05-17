@@ -1,0 +1,5 @@
+dataset,remote_root,status
+Dataset512_CellPose,/backup/taotao_work/nnUNet_results/Dataset512_CellPose/nnUNetTrainer__nnUNetPlans__2d,final full run Cellpose-style branch; folds 0-4 checkpoint_final.pth
+Dataset620_CellCosmosBoundary,/backup/taotao_work/nnUNet_results/Dataset620_CellCosmosBoundary/nnUNetTrainer__nnUNetPlans__2d,"mixed CellCosmos ablation; folds 0-1 complete, folds 2-3 partial"
+Dataset621_SAMCellUniversalBoundary,/backup/taotao_work/nnUNet_results/Dataset621_SAMCellUniversalBoundary/nnUNetTrainer__nnUNetPlans__2d,main universal boundary expert; folds 0-4 checkpoint_final.pth
+Dataset622_SAMCellCellposeStyleBoundary,/backup/taotao_work/nnUNet_results/Dataset622_SAMCellCellposeStyleBoundary/nnUNetTrainer__nnUNetPlans__2d,"Cellpose-style trained expert; diagnostic only, not final full-corpus default"

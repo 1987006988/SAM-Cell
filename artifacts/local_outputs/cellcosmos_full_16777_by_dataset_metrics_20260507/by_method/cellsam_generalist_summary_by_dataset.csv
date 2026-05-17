@@ -1,0 +1,8 @@
+source,method,n,pq,aji,dice,summary_path
+ALL,cellsam_generalist,16777,0.538884517283234,0.5248209538004489,0.7615980136927044,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellsam_generalist/metrics/summary_by_source.csv
+cellpose,cellsam_generalist,540,0.6487053764298524,0.6529832046003171,0.8761528562014009,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellsam_generalist/metrics/summary_by_source.csv
+dsb2018,cellsam_generalist,670,0.7100742954149494,0.7257360953775898,0.8769405267459216,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellsam_generalist/metrics/summary_by_source.csv
+livecell,cellsam_generalist,1000,0.32226371029802275,0.2648492913795652,0.614238949471081,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellsam_generalist/metrics/summary_by_source.csv
+pannuke,cellsam_generalist,7558,0.4300545321672277,0.3944974491948336,0.6343153303889498,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellsam_generalist/metrics/summary_by_source.csv
+tissuenet,cellsam_generalist,7009,0.6623197318936729,0.6733636774331372,0.9000232506638911,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellsam_generalist/metrics/summary_by_source.csv
+SOURCE_MACRO,cellsam_generalist,5,0.554683529240745,0.5422859435970886,0.7803341826942489,/backup/taotao_work/sam_cell/experiments/cellcosmos_full_16777_20260503/cellsam_generalist/metrics/summary_by_source.csv
